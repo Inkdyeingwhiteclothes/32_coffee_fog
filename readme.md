@@ -8,6 +8,9 @@ Run this followed commands:
 # Install dependencies (only the first time)
 npm install
 
+# Ran, to resolve the compatibility warnings with your current Vite version.
+npm install -D esbuild @rollup/pluginutils 
+
 # Run the local server at localhost:8080
 npm run dev
 
